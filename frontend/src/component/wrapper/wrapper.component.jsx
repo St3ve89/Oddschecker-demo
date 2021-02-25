@@ -66,7 +66,7 @@ const Wrapper = () => {
     let total = 0;
     const betIdArray = mockData.map(({ betId }) => betId);
     betIdArray.forEach((id) => {
-      if (inputDict[id] === '') {
+      if (inputDict[id] === '' || !inputDict[id]) {
         inputDict[id] = 0;
       }
       total += parseInt(inputDict[id]);
