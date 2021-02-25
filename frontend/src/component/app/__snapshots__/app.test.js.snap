@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders main app component 1`] = `
+<div
+  className="wrapperstyle__Container-mimsy5-0 ivpdkG"
+>
+  <div
+    className="wrapperstyle__Header-mimsy5-1 frqRkq"
+  >
+    <h1
+      className="wrapperstyle__Title-mimsy5-2 ieixJp"
+    >
+      Betslip
+    </h1>
+    <div
+      className="MuiInputBase-root MuiInput-root MuiInput-underline"
+      onClick={[Function]}
+    >
+      <div
+        aria-haspopup="listbox"
+        className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        decimalOddsMoreThanTwo
+      </div>
+      <input
+        aria-hidden={true}
+        className="MuiSelect-nativeInput"
+        onAnimationStart={[Function]}
+        onChange={[Function]}
+        tabIndex={-1}
+        value="decimalOddsMoreThanTwo"
+      />
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root MuiSelect-icon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M7 10l5 5 5-5z"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="wrapperstyle__CardContainer-mimsy5-3 gHvgtP"
+  />
+  <button
+    className="buttonstyle__CustomButton-sc-175iax6-0 cFjAcq"
+    onClick={[Function]}
+  >
+    <span>
+      Bet now
+    </span>
+  </button>
+</div>
+`;
