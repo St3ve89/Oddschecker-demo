@@ -2,7 +2,7 @@ import { Wrapper } from '.';
 import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
 
-test('renders yobota table body component', () => {
+test('render oddschecker component', () => {
   const store = {
     getState: () => ({
       oddschecker: {

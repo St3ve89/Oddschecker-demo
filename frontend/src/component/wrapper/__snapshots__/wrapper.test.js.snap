@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders yobota table body component 1`] = `
+exports[`render oddschecker component 1`] = `
 <div
-  className="wrapperstyle__Container-mimsy5-0 ivpdkG"
+  className="wrapperstyle__Container-mimsy5-0"
 >
   <div
-    className="wrapperstyle__Header-mimsy5-1 frqRkq"
+    className="wrapperstyle__Header-mimsy5-1 cosElh"
   >
     <h1
       className="wrapperstyle__Title-mimsy5-2 ieixJp"
@@ -13,51 +13,127 @@ exports[`renders yobota table body component 1`] = `
       Betslip
     </h1>
     <div
-      className="MuiInputBase-root MuiInput-root MuiInput-underline"
-      onClick={[Function]}
+      className=" css-2b097c-container"
+      onKeyDown={[Function]}
     >
       <div
-        aria-haspopup="listbox"
-        className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
-        onBlur={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
+        className=" css-q48wxb-Control"
         onMouseDown={[Function]}
-        role="button"
-        tabIndex={0}
+        onTouchEnd={[Function]}
       >
-        decimalOddsMoreThanTwo
+        <div
+          className=" css-g1d714-ValueContainer"
+        >
+          <div
+            className=" css-1uccc91-singleValue"
+          >
+            More then two
+          </div>
+          <div
+            className="css-b8ldur-Input"
+          >
+            <div
+              className=""
+              style={
+                Object {
+                  "display": "inline-block",
+                }
+              }
+            >
+              <input
+                aria-autocomplete="list"
+                autoCapitalize="none"
+                autoComplete="off"
+                autoCorrect="off"
+                disabled={false}
+                id="react-select-2-input"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                spellCheck="false"
+                style={
+                  Object {
+                    "background": 0,
+                    "border": 0,
+                    "boxSizing": "content-box",
+                    "color": "inherit",
+                    "fontSize": "inherit",
+                    "label": "input",
+                    "opacity": 1,
+                    "outline": 0,
+                    "padding": 0,
+                    "width": "1px",
+                  }
+                }
+                tabIndex="0"
+                type="text"
+                value=""
+              />
+              <div
+                style={
+                  Object {
+                    "height": 0,
+                    "left": 0,
+                    "overflow": "scroll",
+                    "position": "absolute",
+                    "top": 0,
+                    "visibility": "hidden",
+                    "whiteSpace": "pre",
+                  }
+                }
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className=" css-1hb7zxy-IndicatorsContainer"
+        >
+          <span
+            className=" css-1okebmr-indicatorSeparator"
+          />
+          <div
+            aria-hidden="true"
+            className=" css-tlfecz-indicatorContainer"
+            onMouseDown={[Function]}
+            onTouchEnd={[Function]}
+          >
+            <svg
+              aria-hidden="true"
+              className="css-tj5bde-Svg"
+              focusable="false"
+              height={20}
+              viewBox="0 0 20 20"
+              width={20}
+            >
+              <path
+                d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+              />
+            </svg>
+          </div>
+        </div>
       </div>
-      <input
-        aria-hidden={true}
-        className="MuiSelect-nativeInput"
-        onAnimationStart={[Function]}
-        onChange={[Function]}
-        tabIndex={-1}
-        value="decimalOddsMoreThanTwo"
-      />
-      <svg
-        aria-hidden={true}
-        className="MuiSvgIcon-root MuiSelect-icon"
-        focusable="false"
-        viewBox="0 0 24 24"
-      >
-        <path
-          d="M7 10l5 5 5-5z"
-        />
-      </svg>
     </div>
   </div>
   <div
-    className="wrapperstyle__CardContainer-mimsy5-3 gHvgtP"
-  />
-  <button
-    className="buttonstyle__CustomButton-sc-175iax6-0 cFjAcq"
-    onClick={[Function]}
+    className="wrapperstyle__InnerWrapper-mimsy5-3 dsmoNd"
   >
-    <span>
-      Bet now
-    </span>
-  </button>
+    <div
+      className="wrapperstyle__InnerContainer-mimsy5-4 iKgzaq"
+    >
+      <div
+        className="wrapperstyle__CardContainer-mimsy5-5 CoLfZ"
+      />
+      <button
+        className="buttonstyle__CustomButton-sc-175iax6-0 cFjAcq"
+        onClick={[Function]}
+      >
+        <span>
+          Bet now
+        </span>
+      </button>
+    </div>
+  </div>
 </div>
 `;
