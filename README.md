@@ -16,7 +16,7 @@
 
 `npm run start-server`
 
-## Finally Betslip can be seen in a browser by using either of this commands:
+## Finally Betslip can be seen in a browser by using of this commands:
 
 `cd frontend`
 
