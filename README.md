@@ -2,17 +2,29 @@
 
 ## Type in your terminal the following commands :
 
-```git clone https://github.com/St3ve89/Oddschecker-demo.git```
-```cd Oddschecker-demo```
-```npm i```
-```npm run start-server```
+`git clone https://github.com/St3ve89/Oddschecker-demo.git`
+
+### Then
+
+`cd Oddschecker-demo`
+
+### Then
+
+`npm i`
+
+### And
+
+`npm run start-server`
 
 ## Finally Betslip can be seen in a browser by using either of this commands:
 
-```cd frontend```
-```npm start```
+`cd frontend`
+
+### And
+
+`npm start`
 
 ### For Testing
 
-```npm run test```
-```test:coverage```
+`npm run test`
+`test:coverage`
