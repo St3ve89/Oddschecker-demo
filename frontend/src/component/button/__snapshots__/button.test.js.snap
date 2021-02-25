@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Button component 1`] = `
+<button
+  className="buttonstyle__CustomButton-sc-175iax6-0 cFjAcq"
+>
+  <span />
+</button>
+`;

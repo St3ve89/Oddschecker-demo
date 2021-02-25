@@ -7,7 +7,7 @@ import {
   ModalWrapper,
 } from './modal.style';
 
-const Modal = ({ children, showModal, setShowModal }) => {
+export const Modal = ({ children, showModal, setShowModal }) => {
   const modalRef = useRef();
 
   const animation = useSpring({
@@ -56,5 +56,3 @@ const Modal = ({ children, showModal, setShowModal }) => {
     </>
   );
 };
-
-export default memo(Modal);

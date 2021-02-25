@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getOddScheckerDataAction } from '../../store/oddschecker.action';
 import { TextField } from '@material-ui/core';
-import Modal from '../modal/modal.component';
+import { Modal } from '../modal/modal.component';
 import { Button } from '../button/button.component';
 import {
   Container,

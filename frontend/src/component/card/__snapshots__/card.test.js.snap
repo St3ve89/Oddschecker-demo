@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Card component 1`] = `
+<div
+  className="cardstyle__CustomCard-sc-1xh6lcz-0 gKulnT"
+/>
+`;
