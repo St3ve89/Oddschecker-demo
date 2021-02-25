@@ -15,6 +15,19 @@ import {
 import { Card } from '../card/card.component';
 import Select from 'react-select';
 
+const customStyles = {
+  option: (provided) => ({
+    ...provided,
+    color: 'black',
+    padding: 20,
+  }),
+  control: () => ({
+    width: 200,
+    display: 'flex',
+    background: 'white',
+  }),
+};
+
 const Wrapper = () => {
   const [mockData] = useSelector(({ oddschecker }) => [oddschecker.data]);
   const [selectValue, setSelectValue] = useState({
@@ -66,19 +79,6 @@ const Wrapper = () => {
   const handleInputOnChange = (event, betId) => {
     const { value } = event.target;
     setInputDict((prevState) => ({ ...prevState, [betId]: value }));
-  };
-
-  const customStyles = {
-    option: (provided) => ({
-      ...provided,
-      color: 'black',
-      padding: 20,
-    }),
-    control: () => ({
-      width: 200,
-      display: 'flex',
-      background: 'white',
-    }),
   };
 
   return (
