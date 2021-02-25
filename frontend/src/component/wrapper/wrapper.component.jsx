@@ -53,7 +53,6 @@ const Wrapper = () => {
     let total = 0;
     const betIdArray = mockData.map(({ betId }) => betId);
     betIdArray.forEach((id) => {
-      console.log(inputDict[id]);
       if (inputDict[id] === '') {
         inputDict[id] = 0;
       }
